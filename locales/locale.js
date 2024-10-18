@@ -9,16 +9,18 @@ import trES from "./es/common.json"
 import trAR from "./ar/common.json"
 import trJA from "./ja/common.json"
 import trZH from "./zh/common.json"
+import trTR from "./tr/common.json"
 
 const resources = {
-  en: { common: trEN },
-  fr: { common: trFR },
-  ko: { common: trKO },
-  de: { common: trDE },
-  es: { common: trES },
-  ar: { common: trAR },
-  ja: { common: trJA },
-  zh: { common: trZH }
+    en: { common: trEN },
+    fr: { common: trFR },
+    ko: { common: trKO },
+    de: { common: trDE },
+    es: { common: trES },
+    ar: { common: trAR },
+    ja: { common: trJA },
+    zh: { common: trZH },
+    tr: { common: trTR}
 }
 
 i18n
